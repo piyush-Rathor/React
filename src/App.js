@@ -1,10 +1,14 @@
 import React, { Component, Fragment } from 'react';
-import Student from './Student'
+import Student from './Student';
+const name=" Hey i am Variable"
 class App extends Component{
     render(){
+        const a=()=>{
+            return "hello I m from fx"
+        }
         return(<>
-            <h1>Hey guys</h1>
-            <h2>Hello dude</h2>
+            <h1>Hey guys{10+20+30*3},{a()}</h1>
+        <h2>Hello dude{name}</h2>
             <Student />
             <Student />
         </>)
