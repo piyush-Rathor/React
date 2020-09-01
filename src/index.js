@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-let el=<h1>Hello Word</h1>;
+let el=React.createElement("h1",null,"hello World");
 
 ReactDOM.render(el,document.getElementById("root"));
