@@ -9,7 +9,8 @@ class App extends Component{
         }
         return(<>
             <h1 className="bg">Hey guys{10+20+30*3},{a()}</h1>
-        <h2>Hello dude{name}</h2>
+        <h2>Hello dude{this.props.name}</h2>
+        <p>Here i using props {this.props.name} ,  {this.props.roll}</p>
             <Student />
             <Student />
         </>)
