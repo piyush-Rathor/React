@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
-let el=React.createElement("h1",null,"Hello World")
-
-export default el;
+import React, { Component } from 'react';
+class App extends Component{
+    render(){
+        return(<h1>Hey guys</h1>)
+    }
+}
+export default App;
