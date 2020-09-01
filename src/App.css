@@ -1,0 +1,11 @@
+.bg{
+    font-style: inherit;
+    color: khaki;
+
+}
+.bg:hover{
+    color: red;
+    background-color: pink;
+    padding: 0;
+    margin: 0em;
+}
